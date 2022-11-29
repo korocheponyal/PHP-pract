@@ -99,7 +99,7 @@
 //     $c = 0;
 //     foreach($arr as $v){
 //         if($x == $v ){
-//             $c += 1;
+//             $c++;
 //         }
 //     }
 //     echo $c;
@@ -109,9 +109,9 @@
 
 // $max = 0;
 // $min = 0;
-// $array = [1,2,12,122,21,10,122];
+// $array = [1,2,12,112,21,10,122];
 
-// foreach ($array as $key => $value) {
+// foreach ($array as $value) {
 //     if($value>$max){
 //         $max = $value;
 //     }
@@ -120,5 +120,17 @@
 
 // echo $max . '<br>';
 
+// preg_match("/(\d+)/s","hello12",$matches);
+// echo $matches[1];
 
+// preg_match("/(\S+)@([a-z0-9.]+)/","hellod tast@mail.com",$m);
+// print_r($m[0]);
 
+// echo phpversion();
+// // die('stop');
+// exit('stop1');//завершает работу сценария ф-я безвовратная
+// echo getlastmod();
+
+// //финализаторы(),регулярные выражения,генерация кода во время выполнения
+
+// eval();
