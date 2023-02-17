@@ -88,22 +88,31 @@
 # programmer()
 # print(eggs)
 
-def spam():
-    global eggs
-    eggs = "spam"#глобальная переменная
-def becon():
-    eggs = "becon"#локальная переменная
-def finish():
-    print(eggs)#глобальна переменная
-spam()
-eggs = "test"
-eggs = "global"
+# def spam():
+#     global eggs
+#     eggs = "spam"#глобальная переменная
+# def becon():
+#     eggs = "becon"#локальная переменная
+# def finish():
+#     print(eggs)#глобальна переменная
+# spam()
+# eggs = "test"
+# eggs = "global"
 
-print(eggs)
+# print(eggs)
 
 #спомощью ф-ии сделать диапазон от 1 до 10 используя цикл ренж и соответвствено диапазон принимать с инпута,принтавать привет мир
 
 
+a = int(input())
+b = int(input())
+
+
+def x(a,b):
+    for i in range(a, b):
+        print("привет мир")
+
+x(a,b)
 
 
 
